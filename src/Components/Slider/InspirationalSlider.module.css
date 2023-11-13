@@ -1,0 +1,121 @@
+.inspiration {
+    font-family: popoins;
+    background-color: #fcf8f3;
+    display: flex;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .inspiration-div {
+    margin-top: 223px;
+    margin-left: 100px;
+  }
+  .Beautiful-text {
+    color: var(--color-gray-1, #3A3A3A);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 48px */
+    margin-right: 20px;
+  }
+  .description-of-beautiful-text {
+    color: var(--color-gray-2, #616161);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+  }
+  .explore-more {
+    background-color: #b88e2f;
+    width: 176px;
+    height: 48px;
+    color: #ffffff;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+  }
+  
+  .rc-24 {
+    width: 404px
+  }
+  .rc-25 {
+    width: 372px;
+    display: block;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  .img-inspration {
+    display: flex;
+    position: relative;
+    margin-top: 3rem;
+  }
+  .indicator {
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+  }
+  .bedroom {
+    width: 217px;
+    height: fit-content;
+    background-color: #ffffffb8;
+    border: none;
+    position: absolute;
+    top: 428px;
+    left: 24px;
+  }
+  .div-carrying-bedroom-text {
+    display: flex;
+    flex-direction: row;
+  }
+  .bedroom-text {
+    color: var(--color-gray-2, #616161);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+  }
+  .line-between-text {
+    height: 0px;
+    width: 27px;
+    border-top: 1px solid #616161;
+  }
+  .inner-peace {
+    margin: auto;
+    color: var(--color-gray-1, #3a3a3a);
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 33.6px */
+  }
+  .next-img-div {
+    border: none;
+    background-color: #b88e2f;
+    width: 48px;
+    height: fit-content;
+    top: 465px;
+    position: absolute;
+    left: 241px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .inspiration-div {
+      margin: 2px;
+    }
+    .inspiration {
+      display: block;
+      width: 100%;
+    }
+    .img-inspration {
+      display: block;
+    }
+    .rc-24 {
+      width: 100%;
+      margin-bottom: 25px;
+    }
+    .rc-25 {
+      margin-left: auto !important;
+    }
+  }

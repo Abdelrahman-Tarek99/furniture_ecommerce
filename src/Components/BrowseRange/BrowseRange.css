@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../../../Montserrat/Montserrat-VariableFont_wght.ttf);
+  }
+  @font-face {
+    font-family: poppins;
+    src: url(../../../Poppins/Poppins-Regular.ttf);
+  }
+  /*--End of Fonts*/
+
+  .bedroom {
+    width: 217px;
+    height: fit-content;
+    background-color: #ffffffb8;
+    border: none;
+    position: absolute;
+    top: 428px;
+    left: 24px;
+  }
+  .div-carrying-bedroom-text {
+    flex-direction: row;
+  }
+  .bedroom-text {
+    color: var(--color-gray-2, #616161);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+  }
+  .dining-room,
+.living-room,
+.bedroom-room {
+  font-size: 24px;
+}
+.furniture {
+  justify-content: center;
+}
+
+
+@media only screen and (max-width: 768px){
+    #browse-the-range {
+        margin-top: 0px !important;
+      }
+      .browsing {
+        width: 100%;
+      }
+}

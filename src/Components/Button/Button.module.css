@@ -1,0 +1,46 @@
+.showMore {
+    width: 15%;
+    height: auto;
+    background-color: transparent;
+    font-family: poppins;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px #b88e2f solid;
+    color: #b88e2f;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+.showMore a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.showMore:hover {
+  background-color: #b88e2f;
+  color: #fff;
+}
+
+
+.subscribeButton {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  border-radius: 0px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+@media only screen and (max-width: 725px) {
+.showMore{
+    width: auto;
+}
+.subscribeButton{
+  width: 100%;
+}
+  }

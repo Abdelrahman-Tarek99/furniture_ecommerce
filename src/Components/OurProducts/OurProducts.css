@@ -1,0 +1,138 @@
+.actual-price {
+    display: inline;
+    margin-right: 16px;
+  }
+  .tittle-text-tag {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .price-before-discount {
+    display: inline;
+    margin-right: 16px;
+  }
+  .card-description {
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .actual-price {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .show-more-div {
+    justify-content: center;
+    align-items: center;
+  }
+  /*Hover Effect*/
+.card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+    background-color: #f4f5f7;
+    border-radius: 0px;
+    border: none;
+
+    height: 100%;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 0%, 0%, 0.8);
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+  }
+  
+  .card:hover::before {
+    opacity: 1;
+  }
+  
+  .card-body {
+    position: relative;
+    z-index: 1;
+  }
+/* discount item section */
+#discount-button-div,
+#new-button-div {
+  flex-direction: row-reverse;
+  
+}
+
+#new-button,
+#discount-button {
+  margin-top: 24px;
+  margin-right: 24px;
+  border-radius: 50%;
+  position: absolute;
+  border: none;
+  color: var(--color-white, #FFF);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 24px */
+}
+#new-button {
+  background-color: #2ec1ac;
+}
+#discount-button {
+  background-color: #e97171;
+}
+  .hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 0%, 0%, 0.1%);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card:hover .hover-overlay {
+    display: flex;
+  }
+  
+  .add-to-cart {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-bottom: 8px;
+    color: #b88e2f;
+    width: 202px;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 0px;
+  }
+  .icons {
+    background-color: transparent;
+  }
+  .icons p {
+    color: white;
+  }
+  .icons i {
+    color: white;
+  }
+  
+  .icons button {
+    background-color: transparent;
+    margin: 2px;
+    width: 66px;
+  }

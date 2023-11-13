@@ -1,0 +1,92 @@
+/*--Google Fonts*/
+@font-face {
+  font-family: Montserrat;
+  src: url(../../../Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: poppins;
+  src: url(../../../Poppins/Poppins-Regular.ttf);
+}
+/*--End of Fonts*/
+
+.about-us {
+  font-family: poppins;
+}
+.companyNameDetails {
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-weight: bold !important;
+  margin-bottom: 3rem;
+}
+.companyLocation {
+  color: #9f9f9f;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.linkAboutUs {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: normal;
+  font-weight: bold !important;
+}
+.tittlesOfAboutUs {
+  color: #9f9f9f;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.emailForm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.emailInput {
+  margin-right: 11px;
+  color: #000000;
+  border: none;
+  border-bottom: 1px solid #000000;
+  border-radius: 0px;
+  border-radius: 0px;
+}
+.copyrights {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+@media (max-width: 768px) {
+  .col-md-3 {
+    flex: 0 0 50%; /* Display two columns per row */
+    max-width: 50%;
+  }
+  .emailForm {
+    display: block;
+    overflow: hidden;
+  }
+  .emailInput {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
