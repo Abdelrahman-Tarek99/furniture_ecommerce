@@ -20,7 +20,6 @@ function EditModal({ onClose, dValues }) {
     toggleShow();
     onClose();
   };
-//? how to make the modal open again  when the user clicks outside the modal
   return (
     <React.Fragment>
       <MDBModal show={basicModal} toggle={handleClose} tabIndex="-1" backdrop="static">
