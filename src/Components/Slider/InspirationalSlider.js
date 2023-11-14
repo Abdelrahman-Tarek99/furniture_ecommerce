@@ -13,7 +13,7 @@ function InspirationalSlider(){
         <button type="button" className={classes[`explore-more`]}>Explore More</button>
       </div>
       <div className={classes[`img-inspration`]}>
-        <img src="img/Rectangle 24.png" className={classes[`rc-24`]} alt="rc-24" />
+        <img src="img/Rectangle 24.webp" className={classes[`rc-24`]} alt="rc-24" />
         <div className={classes[`bedroom`]}>
           <div className={[classes[`div-carrying-bedroom-text`]]}>
             <div>
@@ -41,7 +41,7 @@ function InspirationalSlider(){
           <button className="btn"><i className="bi-arrow-right"></i></button>
         </div>
         <div className={classes[`rc-25-indicator`]}>
-          <img src="img/Rectangle 25.png" className={classes[`rc-25`]} alt="rc-25" />
+          <img src="img/Rectangle 25.webp" className={classes[`rc-25`]} alt="rc-25" />
           <img
             src="img/Indicator.png"
             className={classes[`indicator`]}
