@@ -16,15 +16,15 @@ function BrowseRange() {
         <div className="container-fluid d-lg-flex furniture justify-content-center">
           <div className="row">
             <div className="col">
-              <img src="img/dininng.png" alt="dining room" className="img-fluid" />
+              <img src="img/dininng.webp" alt="dining room" className="img-fluid" />
               <div className="dining-room text-center">Dining</div>
             </div>
             <div className="col">
-              <img src="img/living.png" alt="living" className="img-fluid" />
+              <img src="img/living.webp" alt="living" className="img-fluid" />
               <div className="living-room text-center">living</div>
             </div>
             <div className="col">
-              <img src="img/bedroom.png" alt="bedroom" className="img-fluid" />
+              <img src="img/bedroom.webp" alt="bedroom" className="img-fluid" />
               <div className="bedroom-room text-center">Bedroom</div>
             </div>
           </div>

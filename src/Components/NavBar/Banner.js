@@ -4,7 +4,7 @@ import "../NavBar/NavBar.css";
 function Banner (){
     return(
         <div className="banner">
-        <img src="img/scandinavian.png" alt="furniture-1" />
+        <img src="img/scandinavian.webp" alt="furniture-1" />
         <div className="bannertext">
           <p className="new-arrival">New Arrival</p>
           <h1 className="discover">
