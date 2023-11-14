@@ -142,6 +142,7 @@ function AddProducts({ onAddProduct, eValues }) {
   const editSubmit = async (productId) => {
     toast.info("Wait for updating the Product !", { autoClose: 10000 });
     // console.log("image Ref", productImageRef.current.files[0]);
+    //if user didn't upload new image
     let settingNewEditedImage = eValues.enteredProductImageUrl;
     if (productImageRef.current.files[0] === undefined) {
       settingNewEditedImage = eValues.enteredProductImageUrl;
